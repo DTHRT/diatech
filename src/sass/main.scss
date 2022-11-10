@@ -1,0 +1,15 @@
+// Bundle everything in one file
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/normalize';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/carousel';
+
+@import 'pages/home';
